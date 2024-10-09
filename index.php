@@ -28,6 +28,34 @@
     }
     ?>
 </p>
+<br>
+<h1>Activity 2: Password Validator</h1>
+<p>Write a PHP script that asks the user to input a password.</p>
+<p>Answer:
+    <?php
+    // Correct password
+    $correct_password = "password123";
+    $message = "";
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $user_input = $_POST['password'];
+
+        if ($user_input === $correct_password) {
+            $message = "Access Granted.";
+        } else {
+            $message = "Incorrect password.";
+        }
+    }
+    ?>
+<!-- getting the password using POST -->
+    <form method="POST" action="">
+        <label for="password">Please enter the password:</label><br>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p><?php echo $message; ?></p>
+</p>
 
 
 </body>
