@@ -1,3 +1,4 @@
+<!-- http://localhost/ActivitiesCIT17/loops/index.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,8 @@
 </head>
 <body>
 <p>Siachongco Arabella <br> CIT17 - 3F</p>
+<br><hr>
+
 <h1>Activity 1: Number Counter</h1>
 <p>Write a PHP script that prints the numbers from 1 to 10 using a while loop.</p>
 <p>Answer:
