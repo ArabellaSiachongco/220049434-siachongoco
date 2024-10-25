@@ -1,5 +1,4 @@
-<!-- http://localhost/ActivitiesCIT17/loops/index.php -->
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,7 +12,7 @@
 <h1>Activity 1: Number Counter</h1>
 <p>Write a PHP script that prints the numbers from 1 to 10 using a while loop.</p>
 <p>Answer:
-    <?php
+<?php
     $counter = 1;
     while ($counter <= 10) {
         echo $counter . " ";
