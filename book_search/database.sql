@@ -1,9 +1,9 @@
--- the search_db needs should be connected to db_name in your php file
+-- the book_db needs should be connected to db_name in your php file
 -- http://localhost/phpmyadmin/ 
--- search_db
+-- book_db
 
-CREATE DATABASE search_db;
-USE search_db;
+CREATE DATABASE book_db;
+USE book_db;
 
 CREATE TABLE books (
     id INT AUTO_INCREMENT PRIMARY KEY,
